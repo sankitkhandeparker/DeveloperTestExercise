@@ -1,0 +1,6 @@
+C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\bin\Debug\ThirdPartyTools.dll
+C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\bin\Debug\ThirdPartyTools.pdb
+C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.csprojAssemblyReference.cache
+C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.csproj.CoreCompileInputs.cache
+C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.dll
+C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.pdb
