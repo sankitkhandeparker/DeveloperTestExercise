@@ -11,38 +11,36 @@ namespace FileData
 {
     public class FileAttributeUtility
     {
-        static string __versionCommands, __sizeCommands, __exitCommand;
         public FileAttributeUtility()
         {
             
         }
         /// <summary>
-        /// Utility entry point which will take crae of the utility functionality
+        /// Utility entry point which will take care of the utility functionality
         /// </summary>
         public static void RunUtility()
         {
-            bool exitFlag = false;//Flag true means utility will close
-            string strInput, strCommmand, filePath = string.Empty;
+            bool exitFlag = false;
+            string userInput, commmand, filePath = string.Empty;
           
-            FileDetails objFileDetails = new FileDetails();//File details object to access version and size methods
+            FileDetails fileDetails = new FileDetails();
 
-            ShowUtilityIntroduction();//Utility introduction line
+            ShowUtilityIntroduction();
             while (!exitFlag)
             {
                 try
                 {
-                    strInput = Console.ReadLine().Trim();
-                    strCommmand = ValidateAndExtractCommand(strInput, out filePath);
+                    userInput = Console.ReadLine().Trim();
+                    commmand = ValidateAndExtractCommand(userInput, out filePath);
 
                     var isFileValid = !string.IsNullOrEmpty(filePath) && (filePath.IndexOfAny(Path.GetInvalidFileNameChars()) < 0);
 
-                    switch (strCommmand) //Based on verified command select case
+                    switch (commmand) 
                     {
                         case "Version":
-                            if (isFileValid)//File name check
+                            if (isFileValid)
                             {
-                                //Call version function
-                                string strFileVersion = objFileDetails.Version(filePath);
+                                                               string strFileVersion = fileDetails.Version(filePath);
                                 Console.WriteLine("\nFile Version Information");
                                 Console.WriteLine("File Version: " + strFileVersion);
                                 ShowUtilityIntroduction();
@@ -54,10 +52,9 @@ namespace FileData
                             }
                             break;
                         case "Size":
-                            if (isFileValid)//File name check
+                            if (isFileValid)
                             {
-                                //Call size function
-                                int intFileSize = objFileDetails.Size(filePath);
+                                                               int intFileSize = fileDetails.Size(filePath);
                                 if (int.TryParse(intFileSize.ToString(), out intFileSize))
                                 {
                                     Console.WriteLine("\nFile Size Information");
@@ -95,50 +92,51 @@ namespace FileData
         /// Method process input from the user and extract version/size command from the same. 
         /// If invalid command entered then method would return "Invalid"
         /// </summary>
-        /// <param name="strInput">User Input</param>
+        /// <param name="userInput">User Input</param>
         /// <param name="filepath">Output parameter to which will pass filepath</param>
         /// <returns></returns>
-        public static string ValidateAndExtractCommand(string strInput, out string filepath)
+        public static string ValidateAndExtractCommand(string userInput, out string filepath)
         {
-            __versionCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Version").FirstOrDefault().ToString();
-            __sizeCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Size").FirstOrDefault().ToString();
-            __exitCommand = System.Configuration.ConfigurationManager.AppSettings.GetValues("Exit").FirstOrDefault().ToString();
-            string strCommmand = string.Empty;
+            string versionCommands, sizeCommands, exitCommand;
+            versionCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Version").FirstOrDefault().ToString();
+            sizeCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Size").FirstOrDefault().ToString();
+            exitCommand = System.Configuration.ConfigurationManager.AppSettings.GetValues("Exit").FirstOrDefault().ToString();
+            string commmand = string.Empty;
             filepath = string.Empty;
-            if (strInput == string.Empty)//No input provided
+            if (userInput == string.Empty)
             {
-                strCommmand = "Invalid";
+                commmand = "Invalid";
             }
             else
             {
-                string[] arguments = strInput.ToLower().Split(' ');
-                if (arguments.Length != 2) //Proper command format is not provided
+                string[] arguments = userInput.ToLower().Split(' ');
+                if (arguments.Length != 2) 
                 {
-                    if (arguments[0] == __exitCommand)//Check for exit command type
-                        strCommmand = "Exit";
+                    if (arguments[0] == exitCommand)
+                        commmand = "Exit";
                     else
-                        strCommmand = "Invalid";
+                        commmand = "Invalid";
                 }
                 else
                 {
 
-                    if (__versionCommands.Split(',').Contains(arguments[0])) //Check for version command type
+                    if (versionCommands.Split(',').Contains(arguments[0]))
                     {
-                        strCommmand = "Version";
+                        commmand = "Version";
                         filepath = arguments[1];
                     }
-                    else if (__sizeCommands.Split(',').Contains(arguments[0]))//Check for size command type
+                    else if (sizeCommands.Split(',').Contains(arguments[0]))
                     {
-                        strCommmand = "Size";
+                        commmand = "Size";
                         filepath = arguments[1];
                     }
                     else
                     {
-                        strCommmand = "Invalid";
+                        commmand = "Invalid";
                     }
                 }
             }
-            return strCommmand;
+            return commmand;
         }
         /// <summary>
         /// Common method to display introductory lines in the utility whenever required
