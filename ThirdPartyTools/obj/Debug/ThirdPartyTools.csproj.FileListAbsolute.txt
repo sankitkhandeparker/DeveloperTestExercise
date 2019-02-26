@@ -4,3 +4,8 @@ C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTo
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.csproj.CoreCompileInputs.cache
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.dll
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\ThirdPartyTools\obj\Debug\ThirdPartyTools.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\ThirdPartyTools\bin\Debug\ThirdPartyTools.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\ThirdPartyTools\bin\Debug\ThirdPartyTools.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.csproj.CoreCompileInputs.cache
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.pdb

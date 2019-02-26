@@ -8,3 +8,13 @@ C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileData\obj
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileData\obj\Debug\FileData.csproj.CopyComplete
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileData\obj\Debug\FileData.exe
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileData\obj\Debug\FileData.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\bin\Debug\FileData.exe.config
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\bin\Debug\FileData.exe
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\bin\Debug\FileData.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\bin\Debug\ThirdPartyTools.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\bin\Debug\ThirdPartyTools.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\obj\Debug\FileData.csprojAssemblyReference.cache
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\obj\Debug\FileData.csproj.CoreCompileInputs.cache
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\obj\Debug\FileData.csproj.CopyComplete
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\obj\Debug\FileData.exe
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileData\obj\Debug\FileData.pdb

@@ -17,3 +17,23 @@ C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileDataUnit
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileDataUnitTests\obj\Debug\FileDataUnitTests.csproj.CopyComplete
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileDataUnitTests\obj\Debug\FileDataUnitTests.dll
 C:\Users\Sankit\Documents\My Code Repository\DeveloperTestExercise2\FileDataUnitTests\obj\Debug\FileDataUnitTests.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\FileDataUnitTests.dll.config
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\FileDataUnitTests.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\FileDataUnitTests.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\FileData.exe
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\ThirdPartyTools.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\FileData.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\FileData.exe.config
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\bin\Debug\ThirdPartyTools.pdb
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\obj\Debug\FileDataUnitTests.csprojAssemblyReference.cache
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\obj\Debug\FileDataUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\obj\Debug\FileDataUnitTests.csproj.CopyComplete
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\obj\Debug\FileDataUnitTests.dll
+C:\Users\Sankit\source\repos\sankitkhandeparker\DeveloperTestExercise\FileDataUnitTests\obj\Debug\FileDataUnitTests.pdb

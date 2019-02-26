@@ -14,7 +14,7 @@ namespace FileData
         static string __versionCommands, __sizeCommands, __exitCommand;
         public FileAttributeUtility()
         {
-
+            
         }
         /// <summary>
         /// Utility entry point which will take crae of the utility functionality
@@ -23,9 +23,7 @@ namespace FileData
         {
             bool exitFlag = false;//Flag true means utility will close
             string strInput, strCommmand, filePath = string.Empty;
-            __versionCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Version").FirstOrDefault().ToString();
-            __sizeCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Size").FirstOrDefault().ToString();
-            __exitCommand = System.Configuration.ConfigurationManager.AppSettings.GetValues("Exit").FirstOrDefault().ToString();
+          
             FileDetails objFileDetails = new FileDetails();//File details object to access version and size methods
 
             ShowUtilityIntroduction();//Utility introduction line
@@ -102,6 +100,9 @@ namespace FileData
         /// <returns></returns>
         public static string ValidateAndExtractCommand(string strInput, out string filepath)
         {
+            __versionCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Version").FirstOrDefault().ToString();
+            __sizeCommands = System.Configuration.ConfigurationManager.AppSettings.GetValues("Size").FirstOrDefault().ToString();
+            __exitCommand = System.Configuration.ConfigurationManager.AppSettings.GetValues("Exit").FirstOrDefault().ToString();
             string strCommmand = string.Empty;
             filepath = string.Empty;
             if (strInput == string.Empty)//No input provided
